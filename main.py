@@ -121,6 +121,9 @@ def spin(balance):
         bet = get_bet()
         total_bet = bet * lines
 
+        if balance < 3:
+            break
+
         if total_bet > balance:
             print(
                 f"You do not have enough to bet that amount, your current balance is: ${balance}")
@@ -141,6 +144,11 @@ def spin(balance):
 def main():
     balance = deposit()
     while True:
+        if balance < 3:
+            print("""U lost a lot of money fool now quit the game
+                  r u have deposit again
+                  to lose all money again
+                  hava a luck man:: """)
         print(f"Current balance is ${balance}")
         answer = input("Press enter to play (q to quit).")
         if answer == "q":
