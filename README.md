@@ -2,6 +2,25 @@
 
 This is a simple text-based slot machine game written in Python. Players can deposit money, place bets on multiple lines, and spin the slot machine to try their luck. The game calculates winnings based on matching symbols on the lines the player bet on.
 
+## Installation
+
+To run this project, you need to have Java installed on your system.
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/M-Aadhi/slot-machine.git
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd slot-machine
+
+3. **Run the Program:**
+
+   ```bash
+   python main.py
+
 ## Features
 
 - **Deposit Funds:** Players can deposit money to play the game.
@@ -39,5 +58,4 @@ The slot machine has four different symbols, each with a specific value:
 6. **Continue or Quit:**
    - The player can continue playing as long as they have a balance or quit the game.
 
-## Example Gameplay
 
